@@ -34,7 +34,7 @@ function Banner() {
                     <button className='button'>MY list</button>
             </div>
             <h1 className='discription'>{movie ?currentMovie.overview:""}</h1>
-        <button onClick={changeMovie}>Change Movie</button>
+        <button onClick={changeMovie}>changeMovie</button>
 
         </div>
        <div className="fade_bottom"> </div>
